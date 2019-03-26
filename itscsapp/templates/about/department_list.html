@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Nuestros Departamentos{% endblock %}
+{% block content %}
+  <section>
+        <div class="head-2">
+            <div class="container">
+                <div class="head-2-inn head-2-inn-padd-top">
+                    <h1>Conoce nuestros laboratorios y departamentos</h1>
+                    <p>Fusce id sem at ligula laoreet hendrerit venenatis sed purus. Ut pellentesque maximus lacus, nec pharetra augue.</p>
+                    <div class="event-head-sub">
+                        <ul>
+                            <li>Total de Departamentos y Laboratorios: {{ object_list.count }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION START-->
+    <section>
+        <div class="ed-res-bg">
+		<div class="container com-sp pad-bot-70 ed-res-bg">
+            <div class="row">
+                <div class="cor about-sp">
+                    <div class="ed-rsear">
+                        <div class="ed-rsear-in">
+                            <div class="col-md-6">
+							               </div>
+                        </div>
+                    </div>
+                    <div class="ed-about-sec1">
+                        <div class="col-md-6">
+                          {% for departement in object_list %}
+                            <div class="ed-rese-grid ed-rese-grid-mar-bot-30">
+                              <div class="ed-rsear-img ed-faci-full-top">
+                                <img src="{{ departement.image.url }}" alt="">
+                              </div>
+                              <div class="ed-rsear-dec ed-faci-full-bot">
+                                <h4><a href="facilities-detail.html">{{ departement.title }}</a></h4>
+                                <p>{{ departement.description}}</p>
+                                <a href="facilities-detail.html" class="read-line-btn">Read more</a>
+                              </div>
+                            </div>
+                          {% endfor %}
+						  </div>
+                      <div class="col-md-6">
+                        {% for carrer in carrers %}
+                          <div class="ed-rese-grid ed-rese-grid-mar-bot-30">
+								<div class="ed-rsear-img">
+									<img src="{{ carrer.image.url }}" alt="">
+								</div>
+								<div class="ed-rsear-dec">
+									<h4><a href="{% url 'courseDetail' carrer.pk carrer.title|slugify %}">{{ carrer.title }}</a></h4>
+									<a href="{% url 'courseDetail' carrer.pk carrer.title|slugify %}">Status <span>Habilitada</span></a>
+									<a href="{% url 'courseDetail' carrer.pk carrer.title|slugify %}">Duration <span>5 Semestres</span></a>
+
+								</div>
+							</div>
+                        {% endfor %}
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div>
+    </section>
+{% endblock %}
+
+    <!--SECTION END-->
+
+
+    <!--SECTION START-->
+

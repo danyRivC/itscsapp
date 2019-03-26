@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Nuestros Logros{% endblock %}
+{% block content %}
+  <section>
+        <div class="container com-sp pad-bot-70">
+            <div class="row">
+                <div class="cor about-sp">
+
+                    <div class="ed-about-tit">
+                        <div class="con-title">
+                            <h2>Nuestros logros como<span> Institución</span></h2>
+                            <p>Fusce id sem at ligula laoreet hendrerit venenatis sed purus. Ut pellentesque maximus lacus, nec pharetra augue.</p>
+                        </div>
+                    </div>
+                    <div class="s18-age-event l-info-pack-days">
+                        <ul>
+                          {% for award in object_list %}
+                            <li>
+                                <div class="age-eve-com age-eve-1">
+                                    <img src="{{ award.image.url }}" alt="">
+                                </div>
+                                <div class="s17-eve-time">
+                                    <div class="s17-eve-time-tim">
+                                        <span>{{ award.date }}</span>
+                                    </div>
+                                    <div class="s17-eve-time-msg">
+                                        <h4>{{ award.title }}</h4>
+                                        <p>{{ award.description }}</p>
+                                    </div>
+                                </div>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="ed-about-sec1">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+    <!--SECTION START-->
+
+    <!--SECTION END-->
+

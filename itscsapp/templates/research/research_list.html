@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %}Proyectos e Investigaciones{% endblock %}
+{% block content %}
+     <section>
+        <div class="ed-res-bg">
+		<div class="container com-sp pad-bot-70 ed-res-bg">
+            <div class="row">
+                <div class="cor about-sp">
+                    <div class="ed-rsear">
+                        <div class="ed-rsear-in">
+                            <ul>
+                                {% for research in research_list %}
+                                    <li>
+                                        <div class="ed-rese-grid">
+                                            <div class="ed-rsear-img">
+                                                <img src="{{ research.image.url }}" alt="">
+                                            </div>
+                                            <div class="ed-rsear-dec">
+                                                <h4><a href="{% url 'researchDetail' research.pk research.title|slugify %}">{{ research.title }}</a></h4>
+
+                                                <a href="{% url 'researchDetail' research.pk research.title|slugify %}">Duration <span>{{ research.created }}</span></a>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ed-about-sec1">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div>
+    </section>
+{% endblock %}
