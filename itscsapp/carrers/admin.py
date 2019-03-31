@@ -5,6 +5,7 @@ from itscsapp.carrers.models import *
 @admin.register(Carrer)
 class CarrerAdmin(admin.ModelAdmin):
     list_display = ['title', 'category']
+    prepopulated_fields = {"slug": ("title",)}
 
 
 @admin.register(InformationCarrer)

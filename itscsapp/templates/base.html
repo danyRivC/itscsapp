@@ -46,52 +46,25 @@
                         <a href="#!" class="ed-micon"><i class="fa fa-bars"></i></a>
                         <div class="ed-mm-inn">
                             <a href="#!" class="ed-mi-close"><i class="fa fa-times"></i></a>
-                            <h4>All Courses</h4>
+                            <h4>Todas las Carreras</h4>
                             <ul>
+                              {% for carrer in carrers %}
+                                <li><a href="../../../carrers/templates/carrers/course-details.html">{{ carrer.title }}</a></li>
+                              {% endfor %}
 
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Accounting/Finance</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">civil engineering</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Art/Design</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Marine Engineering</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Business Management</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Journalism/Writing</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Physical Education</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Political Science</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Sciences</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Statistics</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Web Design/Development</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">SEO</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Google Business</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Graphics Design</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Networking Courses</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Information technology</a></li>
                             </ul>
-                            <h4>User Account</h4>
+                            <h4>Cuenta de Usuario</h4>
                             <ul>
-                                <li><a href="#!" data-toggle="modal" data-target="#modal1">Sign In</a></li>
-                                <li><a href="#!" data-toggle="modal" data-target="#modal2">Register</a></li>
+                                <li><a href="" data-toggle="modal" data-target="#modal1">Login</a></li>
+                                <li><a href="#!" data-toggle="modal" data-target="#modal2">Signup</a></li>
                             </ul>
-                            <h4>All Pages</h4>
+                            <h4>La institución</h4>
                             <ul>
-                                <li><a href="index-2.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="admission.html">Admission</a></li>
-                                <li><a href="../../../carrers/templates/carrers/all-courses.html">All courses</a></li>
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">Course details</a></li>
-                                <li><a href="awards.html">Awards</a></li>
-                                <li><a href="seminar.html">Seminar</a></li>
-                                <li><a href="events.html">Events</a></li>
-                                <li><a href="event-details.html">Event details</a></li>
-                                <li><a href="event-register.html">Event register</a></li>
-                                <li><a href="">Contact us</a></li>
-                            </ul>
-                            <h4>User Profile</h4>
-                            <ul>
-                                <li><a href="dashboard.html">User profile</a></li>
-                                <li><a href="db-courses.html">Courses</a></li>
-                                <li><a href="db-exams.html">Exams</a></li>
-                                <li><a href="db-profile.html">Prfile</a></li>
-                                <li><a href="db-time-line.html">Time line</a></li>
+                                <li><a href="{% url 'about' %}">Sobre Nosotros</a></li>
+                                <li><a href="{% url 'admision' %}">Admision</a></li>
+                                <li><a href="{% url 'allCarrers' %}">Oferta Academica</a></li>
+                                <li><a href="{% url 'allEvents' %}">Eventos y Seminarios</a></li>
+                                <li><a href="{% url 'contact' %}">Contactanos</a></li>
                             </ul>
                         </div>
                     </div>
@@ -122,7 +95,7 @@
                                 <ul>
                                 <li><a href="#!" data-toggle="modal" >{{ request.user.username }}</a>
                                 </li>
-                                <li><a href="" data-toggle="modal" >Cerrar Sesion</a>
+                                <li><a href="{% url 'users:logout_view' %}" data-toggle="modal" >Cerrar Sesion</a>
 
                             </ul>
                             {% else %}
@@ -219,7 +192,7 @@
                                 <li><a href="{% url 'allCarrers' %}">Oferta académica</a></li>
                                 <!--<li><a class='dropdown-button ed-sub-menu' href='#' data-activates='dropdown1'>Courses</a></li>-->
 
-                                <li><a href="events.html">Eventos</a>
+                                <li><a href="{% url 'allEvents' %}">Eventos</a>
                                 </li>
                                 <li><a href="{% url 'contact' %}">Contactanos</a>
                                 </li>
@@ -272,44 +245,26 @@
 			  </div>
 			  </div>-->
             <div class="row wed-foot-link">
-                <div class="col-md-4 foot-tc-mar-t-o">
-                    <h4>Top Courses</h4>
-                    <ul>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Accounting/Finance</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">civil engineering</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Art/Design</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Marine Engineering</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Business Management</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Journalism/Writing</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Physical Education</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Political Science</a></li>
-                    </ul>
-                </div>
                 <div class="col-md-4">
-                    <h4>New Courses</h4>
+                    <h4>Nuestros Cursos</h4>
                     <ul>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Sciences</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Statistics</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Web Design/Development</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">SEO</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Google Business</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Graphics Design</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Networking Courses</a></li>
-                        <li><a href="../../../carrers/templates/carrers/course-details.html">Information technology</a></li>
+                      {% for carrer in carrers %}
+                        <li><a href="{% url 'courseDetail' carrer.pk carrer.title|slugify %}">{{ carrer.title }}</a></li>
+                      {% endfor %}
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h4>HELP & SUPPORT</h4>
                     <ul>
-                        <li><a href="#">24x7 Live help</a>
+                        <li><a href="{% url 'contact' %}">24x7 Live help</a>
                         </li>
-                        <li><a href="#">Contact us</a>
+                        <li><a href="{% url 'contact' %}">Contact us</a>
                         </li>
-                        <li><a href="#">Feedback</a>
+                        <li><a href="{% url 'contact' %}">Feedback</a>
                         </li>
-                        <li><a href="#">FAQs</a>
+                        <li><a href="{% url 'contact' %}">FAQs</a>
                         </li>
-                        <li><a href="#">Safety Tips</a>
+                        <li><a href="{% url 'contact' %}">Safety Tips</a>
                         </li>
                     </ul>
                 </div>
@@ -317,9 +272,9 @@
             <div class="row wed-foot-link-1">
                 <div class="col-md-4 foot-tc-mar-t-o">
                     <h4>Get In Touch</h4>
-                    <p>Address: 28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</p>
+                    <p>Direccion: Av. Maldonado y Gaspar Lozano - Quito</p>
                     <p>Phone: <a href="#!">+101-1231-4321</a></p>
-                    <p>Email: <a href="#!">info@educationmaster.com</a></p>
+                    <p>Email: <a href="#!">info@itscompusur.com</a></p>
                 </div>
                 <div class="col-md-4">
                     <h4>DOWNLOAD OUR FREE MOBILE APPS</h4>
@@ -383,12 +338,12 @@
                     </a>
                     <h4>Login</h4>
                     <p>Don't have an account? Create your account. It's take less then a minutes</p>
-                    <form class="s12" action="" method="POST">
+                    <form class="s12" action="{% url 'users:login_view' %}" method="POST">
                         {% csrf_token %}
                         <div>
                             <div class="input-field s12">
-                                <input type="text" name="username" class="validate">
-                                <label>User name</label>
+                                <input type="email" name="email" class="validate">
+                                <label>Email</label>
                             </div>
                         </div>
                         <div>
@@ -420,8 +375,8 @@
         <div id="modal2" class="modal fade" role="dialog">
             <div class="log-in-pop">
                 <div class="log-in-pop-left">
-                    <h1>Hello...</h1>
-                    <p>Don't have an account? Create your account. It's take less then a minutes</p>
+                    <h1>Hola</h1>
+                    <p>Crea una cuenta gratuita</p>
                     <h4>Login with social media</h4>
                     <ul>
                         <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a>
@@ -433,32 +388,45 @@
                     </ul>
                 </div>
                 <div class="log-in-pop-right">
-                    <a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
+                    <a href="#" class="pop-close" data-dismiss="modal"><img src="{% static 'images/cancel.png'%}" alt="" />
                     </a>
-                    <h4>Create an Account</h4>
-                    <p>Don't have an account? Create your account. It's take less then a minutes</p>
-                    <form class="s12">
+                    <h4>Crea una cuenta</h4>
+                    <p>Crea una cuenta, es gratis</p>
+                    <form class="s12" method="post" action="{% url 'users:signup_view' %}">
+                        {% csrf_token %}
                         <div>
                             <div class="input-field s12">
-                                <input type="text" data-ng-model="name1" class="validate">
+                                <input type="text" class="validate" name="first_name">
+                                <label>Nombre</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-field s12">
+                                <input type="text" class="validate" name="last_name">
+                                <label>Apellido</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-field s12">
+                                <input type="text" data-ng-model="name1" class="validate" name="username">
                                 <label>User name</label>
                             </div>
                         </div>
                         <div>
                             <div class="input-field s12">
-                                <input type="email" class="validate">
+                                <input type="email" class="validate" name="email">
                                 <label>Email id</label>
                             </div>
                         </div>
                         <div>
                             <div class="input-field s12">
-                                <input type="password" class="validate">
+                                <input type="password" class="validate" name="password">
                                 <label>Password</label>
                             </div>
                         </div>
                         <div>
                             <div class="input-field s12">
-                                <input type="password" class="validate">
+                                <input type="password" class="validate" name="password_confirmation">
                                 <label>Confirm password</label>
                             </div>
                         </div>

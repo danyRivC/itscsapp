@@ -16,6 +16,13 @@ urlpatterns = [
     path("", include('itscsapp.research.urls')),
     # URL Create Coment
     path("", include('itscsapp.comment.urls')),
+    #URls of Evetns Views
+    path("", include('itscsapp.events.urls')),
+    #Urls of Blogs Views
+    path("",include('itscsapp.blog.urls')),
+    #URls Admision
+    path("", include('itscsapp.admision.urls')),
+
     # About Urls
     path("about/", include('itscsapp.about.urls')),
     # Django Admin, use {% url 'admin:index' %}

@@ -1,59 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adee8772-81be-4240-b6fa-a643f6ff4437" name="Default Changelist" comment="" />
+    <list default="true" id="adee8772-81be-4240-b6fa-a643f6ff4437" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/migrations/0002_admisioncarrer_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/migrations/0003_admisionevent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/migrations/0004_auto_20190331_1929.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/models/admision_carrer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/models/admision_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/admision/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/migrations/0002_postblog_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/migrations/0003_auto_20190331_2212.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/models/post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/carrers/migrations/0003_carrer_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/comment/migrations/0003_auto_20190327_2347.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/migrations/0002_eventmodel_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/migrations/0003_auto_20190331_0310.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/migrations/0004_eventmodel_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/models/event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/events/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/static/images/pro-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/templates/about/deparment_detial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/templates/admision/admission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/templates/admision/event-register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/templates/blog/blog-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/templates/blog/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/templates/events/events-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itscsapp/templates/events/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/about/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/about/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/about/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/about/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/carrers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/carrers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/carrers/models/carrer.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/carrers/models/carrer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/carrers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/carrers/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/comment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/comment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/pro-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/slider/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/images/slider/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/slider/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/images/slider/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/about/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/about/department_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/about/department_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/about/facilities-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/about/facilities-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/about/facilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/about/facilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/core/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/core/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/users/models/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/users/models/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/users/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itscsapp/core/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/core/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="231" column="60" lean-forward="true" selection-start-line="231" selection-start-column="18" selection-end-line="231" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="242" column="43" lean-forward="true" selection-start-line="242" selection-start-column="43" selection-end-line="242" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/itscsapp/comment/views.py">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="20" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itscsapp/comment/models/comment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="6" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itscsapp/comment/forms/comment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itscsapp/carrers/models/carrer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="487">
+              <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -61,31 +131,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itscsapp/carrers/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="215">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="211" column="43" lean-forward="true" selection-start-line="197" selection-start-column="36" selection-end-line="211" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itscsapp/comment/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,60 +151,63 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/itscsapp/carrers/models/__init__.py" />
-        <option value="$PROJECT_DIR$/itscsapp/carrers/models/asignatures.py" />
-        <option value="$PROJECT_DIR$/itscsapp/carrers/admin.py" />
-        <option value="$PROJECT_DIR$/itscsapp/carrers/urls.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/carrers/all-courses.html" />
-        <option value="$PROJECT_DIR$/itscsapp/contact/models/__init__.py" />
-        <option value="$PROJECT_DIR$/itscsapp/contact/forms/contactForm.py" />
-        <option value="$PROJECT_DIR$/itscsapp/contact/models/contact.py" />
-        <option value="$PROJECT_DIR$/itscsapp/contact/views.py" />
-        <option value="$PROJECT_DIR$/itscsapp/contact/url.py" />
-        <option value="$PROJECT_DIR$/itscsapp/contact/urls.py" />
-        <option value="$PROJECT_DIR$/itscsapp/contact/apps.py" />
-        <option value="$PROJECT_DIR$/itscsapp/admin.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/contact/contact-us.html" />
-        <option value="$PROJECT_DIR$/itscsapp/contact/admin.py" />
-        <option value="$PROJECT_DIR$/itscsapp/static/css/style.css" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/core/home.html" />
-        <option value="$PROJECT_DIR$/itscsapp/research/models.py" />
-        <option value="$PROJECT_DIR$/itscsapp/research/apps.py" />
-        <option value="$PROJECT_DIR$/itscsapp/research/models/research.py" />
-        <option value="$PROJECT_DIR$/itscsapp/research/models/__init__.py" />
-        <option value="$PROJECT_DIR$/itscsapp/research/views.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/research/research_detail.html" />
-        <option value="$PROJECT_DIR$/itscsapp/research/urls.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/research/research_list.html" />
-        <option value="$PROJECT_DIR$/itscsapp/research/admin.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/base.html" />
-        <option value="$PROJECT_DIR$/itscsapp/comment/apps.py" />
-        <option value="$PROJECT_DIR$/itscsapp/comment/admin.py" />
-        <option value="$PROJECT_DIR$/itscsapp/carrers/models/carrer.py" />
-        <option value="$PROJECT_DIR$/itscsapp/carrers/views.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/core/about.html" />
-        <option value="$PROJECT_DIR$/itscsapp/about/models/__init__.py" />
-        <option value="$PROJECT_DIR$/itscsapp/about/models/awards.py" />
-        <option value="$PROJECT_DIR$/config/settings/base.py" />
-        <option value="$PROJECT_DIR$/itscsapp/about/models/departments.py" />
         <option value="$PROJECT_DIR$/itscsapp/about/models/facilities.py" />
         <option value="$PROJECT_DIR$/itscsapp/about/admin.py" />
-        <option value="$PROJECT_DIR$/itscsapp/core/views.py" />
         <option value="$PROJECT_DIR$/itscsapp/core/urls.py" />
-        <option value="$PROJECT_DIR$/config/urls.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/about/about.html" />
         <option value="$PROJECT_DIR$/itscsapp/templates/about/awards_list.html" />
+        <option value="$PROJECT_DIR$/itscsapp/comment/urls.py" />
+        <option value="$PROJECT_DIR$/itscsapp/comment/forms/comment.py" />
+        <option value="$PROJECT_DIR$/itscsapp/comment/models/comment.py" />
+        <option value="$PROJECT_DIR$/itscsapp/carrers/admin.py" />
+        <option value="$PROJECT_DIR$/itscsapp/carrers/models/carrer.py" />
+        <option value="$PROJECT_DIR$/itscsapp/users/models/users.py" />
+        <option value="$PROJECT_DIR$/itscsapp/users/urls.py" />
+        <option value="$PROJECT_DIR$/itscsapp/users/views.py" />
+        <option value="$PROJECT_DIR$/itscsapp/events/urls.py" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/about/facilities-detail.html" />
         <option value="$PROJECT_DIR$/itscsapp/templates/about/department_list.html" />
         <option value="$PROJECT_DIR$/itscsapp/about/views.py" />
         <option value="$PROJECT_DIR$/itscsapp/about/urls.py" />
-        <option value="$PROJECT_DIR$/itscsapp/comment/urls.py" />
-        <option value="$PROJECT_DIR$/itscsapp/comment/forms/comment.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html" />
-        <option value="$PROJECT_DIR$/itscsapp/comment/models/comment.py" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/about/about.html" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/about/facilities.html" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/events/events-detail.html" />
+        <option value="$PROJECT_DIR$/itscsapp/admision/models/__init__.py" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/admision/admission.html" />
+        <option value="$PROJECT_DIR$/itscsapp/admision/models/admision_carrer.py" />
+        <option value="$PROJECT_DIR$/itscsapp/admision/forms.py" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/events/events.html" />
+        <option value="$PROJECT_DIR$/itscsapp/admision/admin.py" />
         <option value="$PROJECT_DIR$/itscsapp/comment/views.py" />
+        <option value="$PROJECT_DIR$/itscsapp/admision/urls.py" />
+        <option value="$PROJECT_DIR$/itscsapp/events/views.py" />
+        <option value="$PROJECT_DIR$/itscsapp/admision/models/admision_event.py" />
+        <option value="$PROJECT_DIR$/itscsapp/events/models/event.py" />
+        <option value="$PROJECT_DIR$/itscsapp/events/admin.py" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/admision/event-register.html" />
+        <option value="$PROJECT_DIR$/itscsapp/admision/views.py" />
+        <option value="$PROJECT_DIR$/itscsapp/blog/models.py" />
+        <option value="$PROJECT_DIR$/itscsapp/blog/__init__.py" />
+        <option value="$PROJECT_DIR$/itscsapp/blog/models/__init__.py" />
+        <option value="$PROJECT_DIR$/itscsapp/blog/urls.py" />
+        <option value="$PROJECT_DIR$/config/urls.py" />
+        <option value="$PROJECT_DIR$/config/settings/base.py" />
+        <option value="$PROJECT_DIR$/itscsapp/blog/views.py" />
+        <option value="$PROJECT_DIR$/itscsapp/blog/admin.py" />
+        <option value="$PROJECT_DIR$/itscsapp/blog/models/post.py" />
+        <option value="$PROJECT_DIR$/itscsapp/static/css/style.css" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/blog/blog.html" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/blog/blog-details.html" />
+        <option value="$PROJECT_DIR$/itscsapp/core/views.py" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/base.html" />
+        <option value="$PROJECT_DIR$/itscsapp/carrers/views.py" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/core/home.html" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html" />
       </list>
     </option>
   </component>
@@ -164,6 +216,9 @@
     <option name="y" value="102" />
     <option name="width" value="1332" />
     <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -176,24 +231,6 @@
             <path>
               <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,21 +247,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\about" />
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates" />
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\contact" />
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\carrers" />
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\core" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\about" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\blog\models" />
       <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\about" />
       <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\contact" />
       <recent name="C:\Users\danny\Desktop\itscsapp\frontend\src" />
-      <recent name="C:\Users\danny\Desktop\itscsapp\frontend\src\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\blog" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\admision" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\events" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\about" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\users" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,16 +302,27 @@
       <workItem from="1553182445244" duration="2041000" />
       <workItem from="1553268315812" duration="3359000" />
       <workItem from="1553441673139" duration="4897000" />
-      <workItem from="1553619429314" duration="3906000" />
+      <workItem from="1553619429314" duration="8063000" />
+      <workItem from="1553710202663" duration="5670000" />
+      <workItem from="1553717484537" duration="411000" />
+      <workItem from="1553721147753" duration="1119000" />
+      <workItem from="1553726212054" duration="1944000" />
+      <workItem from="1553730735221" duration="742000" />
+      <workItem from="1553748849131" duration="2305000" />
+      <workItem from="1553784091877" duration="713000" />
+      <workItem from="1553877831506" duration="3528000" />
+      <workItem from="1553923999299" duration="2381000" />
+      <workItem from="1553979436306" duration="15565000" />
+      <workItem from="1554040075630" duration="5512000" />
+      <workItem from="1554056814995" duration="17044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58289000" />
+    <option name="totallyTimeSpent" value="119380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24980484" />
@@ -302,272 +351,56 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itscsapp/carrers/admin.py">
+    <entry file="file://$PROJECT_DIR$/itscsapp/users/models/users.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="136">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/carrers/all-courses.html">
+    <entry file="file://$PROJECT_DIR$/itscsapp/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-635">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/contact/forms/contactForm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/carrers/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/contact/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/users/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/contact/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/contact/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/contact/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="504">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/contact/models/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/contact/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/itscsapp/static/css/project.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="4041" column="19" selection-start-line="4041" selection-start-column="19" selection-end-line="4041" selection-end-column="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/itscsapp/events/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/core/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="120" column="26" lean-forward="true" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/research/models.py" />
-    <entry file="file://$PROJECT_DIR$/itscsapp/core/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/research/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/research/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/research/apps.py">
+    <entry file="file://$PROJECT_DIR$/itscsapp/events/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/research/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="92" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
+          <caret line="4" column="86" selection-start-line="4" selection-start-column="86" selection-end-line="4" selection-end-column="86" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/research/research_detail.html">
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/facilities-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/research/research_list.html">
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/department_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/research/models/research.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/research/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/comment/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/comment/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="184" column="90" selection-start-line="184" selection-start-column="90" selection-end-line="184" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/contact/contact-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/about/models/facilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/about/models/awards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/about/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="78" column="39" lean-forward="true" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/about/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/about/models/departments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1037">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -581,156 +414,384 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/core/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/deparment_detial.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/itscsapp/about/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="408">
+          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itscsapp/about/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/about/models/departments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/about/models/facilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/facilities.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+        <state relative-caret-position="357">
+          <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/awards_list.html">
+    <entry file="file://$PROJECT_DIR$/itscsapp/admision/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="17">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/facilities-detail.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/admision/admission.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/department_list.html">
+    <entry file="file://$PROJECT_DIR$/itscsapp/admision/models/admision_carrer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/events/events-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/comment/urls.py">
+    <entry file="file://$PROJECT_DIR$/itscsapp/admision/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+        <state relative-caret-position="340">
+          <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/carrers/urls.py">
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/events/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/carrers/models/carrer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/carrers/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="211" column="43" lean-forward="true" selection-start-line="197" selection-start-column="36" selection-end-line="211" selection-end-column="43" />
+        <state relative-caret-position="286">
+          <caret line="31" column="105" selection-start-line="31" selection-start-column="105" selection-end-line="31" selection-end-column="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itscsapp/comment/models/comment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="6" selection-end-line="21" />
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/comment/forms/comment.py">
+    <entry file="file://$PROJECT_DIR$/itscsapp/admision/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="8" />
+        <state relative-caret-position="85">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/comment/views.py">
+    <entry file="file://$PROJECT_DIR$/itscsapp/events/models/event.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/carrers/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/admision/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/events/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/events/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/comment/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/admision/event-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/admision/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/admision/models/admision_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/carrers/models/carrer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/blog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/blog/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/blog/models/post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/blog/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/blog/blog-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="242" column="43" lean-forward="true" selection-start-line="242" selection-start-column="43" selection-end-line="242" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/carrers/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/core/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="231" column="60" lean-forward="true" selection-start-line="231" selection-start-column="18" selection-end-line="231" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

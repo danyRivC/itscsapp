@@ -3840,8 +3840,8 @@ left: 0;
 }
  .pg-eve-reg a:hover{
      color: #ffffff;
-     border: 1px solid #d45023;
-     background: #f26838;
+     border: 1px solid #339915;
+     background: #15a516;
 }
  .pg-eve-reg:nth-child(1) a{
 }
@@ -3881,10 +3881,10 @@ left: 0;
 }
  .pg-eve-main{
 }
- .pg-eve-main ul li:hover .pg-eve-reg a:nth-child(1){
+ .pg-eve-reg a:hover{
      color: #ffffff;
-     border: 1px solid #d45023;
-     background: #f26838;
+     border: 1px solid #339915;
+     background: #15a516;
 }
  .head-2{
      padding: 55px 0px 40px 0px;

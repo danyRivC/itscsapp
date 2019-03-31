@@ -2,7 +2,7 @@ from django.views.generic import DetailView, ListView
 from .models import *
 from itscsapp.comment.forms.comment import CommentForm
 from django.views.generic.edit import FormView
-
+from itscsapp.events.models.event import EventModel
 class CarrerDetailView(DetailView):
     model = Carrer
 
@@ -13,6 +13,7 @@ class CarrerDetailView(DetailView):
         context['asignatures'] = Asignature.objects.all()
         context['semesters'] = Semester.objects.all()
         context['carrers'] = Carrer.objects.all()
+        context['events'] = EventModel.objects.all()
         return context
 
 

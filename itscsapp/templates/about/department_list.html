@@ -38,9 +38,9 @@
                                 <img src="{{ departement.image.url }}" alt="">
                               </div>
                               <div class="ed-rsear-dec ed-faci-full-bot">
-                                <h4><a href="facilities-detail.html">{{ departement.title }}</a></h4>
+                                <h4><a href="{% url 'department_detail' departement.pk departement.title|slugify %}">{{ departement.title }}</a></h4>
                                 <p>{{ departement.description}}</p>
-                                <a href="facilities-detail.html" class="read-line-btn">Read more</a>
+                                <a href="{% url 'department_detail' departement.pk departement.title|slugify %}" class="read-line-btn">Read more</a>
                               </div>
                             </div>
                           {% endfor %}

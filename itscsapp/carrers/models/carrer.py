@@ -13,12 +13,13 @@ class Carrer(ITSModel):
         on_delete=models.CASCADE,
         verbose_name='Categoria'
     )
+    slug = models.SlugField()
 
     def get_absolute_url(self):
-        return reverse("detail_view",
+        return reverse("courseDetail",
                        kwargs={
-                           'int': self.pk,
-                           'slug': self.slug
+                           'pk': self.pk,
+                           'slug': self.slug,
                        })
 
     class Meta:

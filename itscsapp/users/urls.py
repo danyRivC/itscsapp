@@ -1,16 +1,10 @@
 from django.urls import path
 
-from itscsapp.users.views import (
-    user_list_view,
-    user_redirect_view,
-    user_update_view,
-    user_detail_view,
-)
+from itscsapp.users.views import login_view, logout_view, sign_up
 
 app_name = "users"
 urlpatterns = [
-    path("", view=user_list_view, name="list"),
-    path("~redirect/", view=user_redirect_view, name="redirect"),
-    path("~update/", view=user_update_view, name="update"),
-    path("<str:username>/", view=user_detail_view, name="detail"),
+    path("login/", view=login_view, name='login_view'),
+    path("logout/", view=logout_view, name='logout_view'),
+    path("signup/", view=sign_up, name='signup_view')
 ]

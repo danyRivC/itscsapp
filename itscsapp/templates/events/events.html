@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}Eventos{% endblock %}
+{% load static %}
+{% block content %}
+  <section>
+        <div class="container com-sp">
+            <div class="row">
+                <div class="cor about-sp">
+                    <div class="ed-about-tit">
+                        <div class="con-title">
+                            <h2>Lista de  <span> Nuestros Eventos</span></h2>
+                            <p>Fusce id sem at ligula laoreet hendrerit venenatis sed purus. Ut pellentesque maximus lacus, nec pharetra augue.</p>
+                        </div>
+                        <div>
+                            <div class="ho-event pg-eve-main">
+                                <ul>
+                                  {% for event in object_list %}
+                                    <li>
+
+                                        <div class="ho-ev-date pg-eve-date"><span>{{event.date_init|date:"d" }}</span><span>{{ event.date_init|date:"M, y" }}</span>
+                                        </div>
+
+                                          <div class="ho-ev-link pg-eve-desc">
+                                            <a href="event-register.html">
+                                                <h4>{{ event.title }}</h4>
+                                            </a>
+                                            <p>{{ event.description|slice:':70' }}...</p>
+                                            <span>{{ event.date_init|time }} – {{ event.date_finished|time }}</span>
+                                        </div>
+
+                                        <div class="pg-eve-reg">
+                                            <a href="{% url 'admision-event' event.pk event.title|slugify %}">Register</a><a href="{% url 'eventDetail' event.pk event.title|slugify %}">Saber más</a>
+                                        </div>
+                                    </li>
+                                  {% endfor %}
+
+                                </ul>
+                            </div>
+                        </div>
+                    {% if is_paginated %}
+                        <div class="pg-pagina">
+                            <ul class="pagination">
+                               {% if page_obj.has_previous %}
+                                <li class="disabled"><a href="{{ page_obj.previous_page_number }}">Antes<i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+                                 {% endif %}
+                                <li class="active">
+                                  <span>{{ page_obj.number }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

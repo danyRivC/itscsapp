@@ -2,10 +2,6 @@ from django.shortcuts import render
 from django.shortcuts import render,redirect
 from itscsapp.comment.forms.comment import CommentForm
 from django.http import HttpResponseBadRequest, HttpResponse
-from django.urls import reverse_lazy
-from django.views.generic.edit import FormView
-from django.shortcuts import get_object_or_404
-from itscsapp.carrers.models import Carrer
 
 
 

@@ -81,6 +81,9 @@ LOCAL_APPS = [
     'itscsapp.research.apps.ResearchConfig',
     'itscsapp.comment.apps.CommentConfig',
     'itscsapp.about.apps.AboutConfig',
+    'itscsapp.events.apps.EventsConfig',
+    'itscsapp.admision.apps.AdmisionConfig',
+    'itscsapp.blog.apps.BlogConfig',
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

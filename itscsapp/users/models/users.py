@@ -3,6 +3,7 @@ from itscsapp.utils.models import ITSModel
 from django.core.validators import RegexValidator
 from django.db import models
 
+
 class User(ITSModel, AbstractUser):
     email = models.EmailField(
         unique=True,
