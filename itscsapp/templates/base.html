@@ -11,7 +11,7 @@
     <meta name="description" content="Education master is one of the best educational html template, it's suitable for all education websites like university,college,school,online education,tution center,distance education,computer education">
     <meta name="keyword" content="education html template, university template, college template, school template, online education template, tution center template">
     <!-- FAV ICON(BROWSER TAB ICON) -->
-    <link rel="shortcut icon" href="{% static 'images/fav.ico' %}" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static 'img/fav.ico' %}" type="image/x-icon">
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CJosefin+Sans:600,700" rel="stylesheet">
     <!-- FONTAWESOME ICONS -->
@@ -37,7 +37,7 @@
             <div class="ed-mob-menu-con">
                 <div class="ed-mm-left">
                     <div class="wed-logo">
-                        <a href="{% url 'home' %}"><img src="{% static 'images/logoITSCS.svg' %}" alt="" />
+                        <a href="{% url 'home' %}"><img src="{% static 'img/logoITSCS.svg' %}" alt="" />
 						</a>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                             <h4>Todas las Carreras</h4>
                             <ul>
                               {% for carrer in carrers %}
-                                <li><a href="../../../carrers/templates/carrers/course-details.html">{{ carrer.title }}</a></li>
+                                <li><a href="{% url 'courseDetail' carrer.pk carrer.title|slugify %}">{{ carrer.title }}</a></li>
                               {% endfor %}
 
                             </ul>
@@ -128,7 +128,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wed-logo">
-                            <a href="{% url 'home' %}"><img src="{% static 'images/itscs.svg' %}" alt="" style="height: 55px;"/>
+                            <a href="{% url 'home' %}"><img src="{% static 'img/itscs.svg' %}" alt="" style="height: 55px;"/>
                             </a>
                         </div>
                         <div class="main-menu">
@@ -144,7 +144,7 @@
                                                 <div class="mm1-com mm1-s1">
                                                     <div class="ed-course-in">
                                                         <a class="course-overlay menu-about" href="">
-                                                            <img src="{% static 'images/h-about.jpg' %}" alt="">
+                                                            <img src="{% static 'img/h-about.jpg' %}" alt="">
                                                             <span>Conócenos</span>
                                                         </a>
                                                     </div>
