@@ -282,7 +282,6 @@ SOCIALACCOUNT_ADAPTER = 'itscsapp.users.adapters.SocialAccountAdapter'
 # django-compressor
 # ------------------------------------------------------------------------------
 # https://django-compressor.readthedocs.io/en/latest/quickstart/#installation
-INSTALLED_APPS += ['compressor']
-STATICFILES_FINDERS += ['compressor.finders.CompressorFinder']
+
 # Your stuff...
 # ------------------------------------------------------------------------------
