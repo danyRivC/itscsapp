@@ -42,11 +42,19 @@ class DepartmentDetailView(DetailView):
 class AllFacielieties(ListView):
     model = Facility
     template_name = 'about/facilities.html'
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['carrers'] = Carrer.objects.all()
+        return context
 
 
 class FacilityView(DetailView):
     model = Facility
     template_name = 'about/facilities-detail.html'
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['carrers'] = Carrer.objects.all()
+        return context
 
 
 
