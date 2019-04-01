@@ -55,7 +55,12 @@
                             </ul>
                             <h4>Cuenta de Usuario</h4>
                             <ul>
-                                <li><a href="" data-toggle="modal" data-target="#modal1">Login</a></li>
+                                {% if request.user.is_authenticated %}
+                                  <li><a href="{% url 'users:logout_view' %}" >Logout</a></li>
+                                {% else %}
+                                  <li><a href="" data-toggle="modal" data-target="#modal1">Login</a></li>
+                                {% endif %}
+
                                 <li><a href="#!" data-toggle="modal" data-target="#modal2">Signup</a></li>
                             </ul>
                             <h4>La institución</h4>
@@ -88,9 +93,7 @@
                             </ul>
                         </div>
                         <div class="ed-com-t1-right">
-                            {% if error %}
-                                <span>{{ error }}</span>
-                            {% endif %}
+                            
                             {% if request.user.is_authenticated %}
                                 <ul>
                                 <li><a href="#!" data-toggle="modal" >{{ request.user.username }}</a>
@@ -211,14 +214,14 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="search-form">
-                            <form>
+                            <form method="get" action="{% url 'search_carrer' query='query' %}">
                                 <div class="sf-type">
                                     <div class="sf-input">
-                                        <input type="text" id="sf-box" placeholder="Search course and discount courses">
+                                        <input type="text" id="sf-box" placeholder="Busca Cursos" name="query">
                                     </div>
                                 </div>
                                 <div class="sf-submit">
-                                    <input type="submit" value="Search Course">
+                                    <input type="submit" value="Buscar">
                                 </div>
                             </form>
                         </div>
@@ -227,7 +230,6 @@
             </div>
         </div>
     </section>
-    <!--END HEADER SECTION-->
 
 
 {% block content %}
@@ -334,7 +336,7 @@
                     </ul>
                 </div>
                 <div class="log-in-pop-right">
-                    <a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
+                    <a href="#" class="pop-close" data-dismiss="modal"><img src="{% static 'img/cancel.png' %}" alt="" />
                     </a>
                     <h4>Login</h4>
                     <p>Don't have an account? Create your account. It's take less then a minutes</p>
@@ -388,7 +390,7 @@
                     </ul>
                 </div>
                 <div class="log-in-pop-right">
-                    <a href="#" class="pop-close" data-dismiss="modal"><img src="{% static 'images/cancel.png'%}" alt="" />
+                    <a href="#" class="pop-close" data-dismiss="modal"><img src="{% static 'img/cancel.png'%}" alt="" />
                     </a>
                     <h4>Crea una cuenta</h4>
                     <p>Crea una cuenta, es gratis</p>
@@ -458,7 +460,7 @@
                     </ul>
                 </div>
                 <div class="log-in-pop-right">
-                    <a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
+                    <a href="#" class="pop-close" data-dismiss="modal"><img src="{% static 'img/cancel.png'%}" alt="" />
                     </a>
                     <h4>Forgot password</h4>
                     <p>Don't have an account? Create your account. It's take less then a minutes</p>

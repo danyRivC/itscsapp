@@ -1,7 +1,7 @@
 from django.views.generic import DetailView, ListView
 from .models import *
 from itscsapp.comment.forms.comment import CommentForm
-from django.views.generic.edit import FormView
+from django.shortcuts import render
 from itscsapp.events.models.event import EventModel
 class CarrerDetailView(DetailView):
     model = Carrer
@@ -26,3 +26,12 @@ class AlCarrerView(ListView):
         context = super().get_context_data(**kwargs)
         context['carrers'] = Carrer.objects.all()
         return context
+
+
+def searchCarrer(request, query):
+    query = request.GET['query']
+    carrers = Carrer.objects.filter( title__icontains=query)
+    if carrers:
+        return render(request=request, template_name='carrers/courses-search.html', context={'carrers':carrers})
+    else:
+        return render(request, 'carrers/all-courses.html', {'error':'No se encuentra el producto'})
