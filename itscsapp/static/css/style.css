@@ -168,7 +168,7 @@
  .menu-drop-menu li a{
 }
  .wed-search{
-     background: url(../images/banner.html) no-repeat;
+     background: url(../img/banner.html) no-repeat;
      position: relative;
      background-size: cover;
 }
@@ -260,7 +260,7 @@
      width: 230px;
      height: 26px;
      margin: 0 auto;
-     background: url('../images/sprite.png') no-repeat -20px -79px;
+     background: url('../img/sprite.png') no-repeat -20px -79px;
      -webkit-transition: width 2s;
      -o-transition: width 2s;
      transition: width 2s;
@@ -336,7 +336,7 @@
 }
  .wed-ser-bg{
      padding-top: 45px;
-     background: url(../images/home-ser-bg1.html) no-repeat center top,url(../images/home-ser-bg.html) repeat-x center top;
+     background: url(../img/home-ser-bg1.html) no-repeat center top,url(../img/home-ser-bg.html) repeat-x center top;
     /* background-position: top, top center;
      */
      background-repeat: inherit no-repeat;
@@ -456,7 +456,7 @@
     /* border-style: dashed;
      */
      border-radius: 5px;
-     background: url(../images/bg.html) no-repeat;
+     background: url(../img/bg.html) no-repeat;
      position: relative;
      background-size: cover;
 }
@@ -634,10 +634,10 @@
      font-size: 13px;
 }
  .sprite-android{
-     background: url(../images/sprite.png) no-repeat -12px -15px;
+     background: url(../img/sprite.png) no-repeat -12px -15px;
 }
  .sprite-ios{
-     background: url(../images/sprite.png) no-repeat -170px -15px;
+     background: url(../img/sprite.png) no-repeat -170px -15px;
 }
  .sprite{
      width: 157px;
@@ -648,7 +648,7 @@
      width: 110px;
      height: 120px;
      display: inline-block;
-     background: url(../images/sprite.png) no-repeat -22px -116px;
+     background: url(../img/sprite.png) no-repeat -22px -116px;
     /* margin-top: 51px;
      */
      float: left;
@@ -707,7 +707,7 @@
      width: 28px;
      position: absolute;
      pointer-events: none;
-     background: url(../images/sprite.png) no-repeat -335px -15px;
+     background: url(../img/sprite.png) no-repeat -335px -15px;
 }
  .desk-hide{
      display:none;
@@ -1309,22 +1309,22 @@
      background: linear-gradient(to top, rgba(3, 41, 79, 0.82), rgba(6, 53, 98, 0.62));
 }
  .ho-ev-latest-bg-1{
-     background: url(../images/ev-bg1.jpg) no-repeat;
+     background: url(../img/ev-bg1.jpg) no-repeat;
      background-size: cover;
 }
  .ho-ev-latest-bg-2{
-     background: url(../images/ev-bg2.jpg) no-repeat;
+     background: url(../img/ev-bg2.jpg) no-repeat;
      background-size: cover;
 }
  .ho-ev-latest-bg-3{
-     background: url(../images/ev-bg.jpg) no-repeat;
+     background: url(../img/ev-bg.jpg) no-repeat;
      background-size: cover;
      margin-bottom: 0px;
      border-bottom-left-radius: 0px;
      border-bottom-right-radius: 0px;
 }
  .in-ev-latest-bg-1{
-     background: url(../images/ev-in-bg1.jpg) no-repeat;
+     background: url(../img/ev-in-bg1.jpg) no-repeat;
      background-size: cover;
 }
  .ho-lat-ev{
@@ -1532,7 +1532,7 @@
  .sf-input input{
      width: 100%;
      border: 0px;
-     background: url(../images/search.png) no-repeat left center #ffffff;
+     background: url(../img/search.png) no-repeat left center #ffffff;
      background-size: 17px;
      background-position-x: 12px;
      color: #464646;
@@ -2192,7 +2192,7 @@
      padding: 15px 0px 25px 0px;
 }
  .cor-tim-tab ul li{
-     background: url('../images/book.png') no-repeat left center;
+     background: url('../img/book.png') no-repeat left center;
      padding-left:50px;
      margin-bottom:20px;
      font-size:13px;
@@ -2213,7 +2213,7 @@
 /* =  14.USER DASHBOARD 
 /*-------------------------------------------------*/
  .pro-cover{
-     background: url('../images/pro-bg.jpg') no-repeat center center;
+     background: url('../img/pro-bg.png') no-repeat center center;
      width:100%;
      height:250px;
      display: block;
@@ -2493,7 +2493,7 @@
  .log-in-pop-left {
      float: left;
      width: 40%;
-     background: url('../images/login.html') #002147 no-repeat center center;
+     background: url('../img/login.html') #002147 no-repeat center center;
      padding: 12.5% 6%;
      color: #fff;
      height: 100%;
@@ -3047,7 +3047,7 @@
      overflow: hidden;
      width: 100%;
      box-shadow: 0px 7px 12px -4px rgba(0, 0, 0, 0.45);
-     background: url('../images/mm-col-bg.png') no-repeat right bottom, #fff;
+     background: url('../img/mm-col-bg.png') no-repeat right bottom, #fff;
      z-index: 999;
      margin-top: -7px;
      padding: 20px 10px;
@@ -3566,7 +3566,7 @@ left: 0;
      line-height: 50px;
 }
  .h-quote {
-     background: url(../images/weather.png);
+     background: url(../img/weather.png);
      position: relative;
      overflow: hidden;
      padding:100px 0px 100px 0px;
@@ -3743,7 +3743,7 @@ left: 0;
 /* = 27.SEMINAR 
 /*-------------------------------------------------*/
  .p-semi{
-     background: url(../images/seminar-bg.jpg);
+     background: url(../img/seminar-bg.jpg);
      position: relative;
      overflow: hidden;
      padding:100px 0px 100px 0px;
@@ -3848,7 +3848,7 @@ left: 0;
  .pg-eve-reg:nth-child(2) a{
 }
  .p-event{
-     background: url(../images/event-bg.jpg);
+     background: url(../img/event-bg.jpg);
 }
  .p-event:before {
      background: #8d54e9;
@@ -3888,7 +3888,7 @@ left: 0;
 }
  .head-2{
      padding: 55px 0px 40px 0px;
-     background: url(../images/event-bg.jpg);
+     background: url(../img/event-bg.jpg);
      position: relative;
 }
  .head-2:before{
@@ -4511,7 +4511,7 @@ left: 0;
     color: #fff;
 }
 .blog-login {
-    background: url(../images/bg-2.html) no-repeat;
+    background: url(../img/bg-2.html) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -4766,19 +4766,19 @@ left: 0;
     color: #263238;
 }
 .list-enq-city {} .dash-b-1 {
-    background: url('../images/bg/1.jpg') no-repeat center;
+    background: url('../img/bg/1.jpg') no-repeat center;
     background-size: cover;
 }
 .dash-b-2 {
-    background: url('../images/bg/2.jpg') no-repeat center;
+    background: url('../img/bg/2.jpg') no-repeat center;
     background-size: cover;
 }
 .dash-b-3 {
-    background: url('../images/bg/3.jpg') no-repeat center;
+    background: url('../img/bg/3.jpg') no-repeat center;
     background-size: cover;
 }
 .dash-b-4 {
-    background: url('../images/bg/4.jpg') no-repeat center;
+    background: url('../img/bg/4.jpg') no-repeat center;
     background-size: cover;
 }
 /*-------------------------------------------------------*/
@@ -5197,7 +5197,7 @@ width: 100%;
 /* HOME PAGE 2
 /*-------------------------------------------------------*/
 .h2-hero{
-    background: url('../images/ban-bg.png'), url('../images/seminar-bg.jpg');
+    background: url('../img/ban-bg.png'), url('../img/seminar-bg.jpg');
     background-repeat: repeat-x,no-repeat;
     background-size: 40%, cover;
     background-position: bottom, center;
@@ -5370,22 +5370,22 @@ font-size: 14px !important;
     box-sizing: border-box;
 }
 .ed-ref-form-inn form ul li:nth-child(1) input{
-    background: url(../images/icon/form-1.png) no-repeat;
+    background: url(../img/icon/form-1.png) no-repeat;
     background-size: 24px;
     background-position: 0px 8px;
 }
 .ed-ref-form-inn form ul li:nth-child(2) input{
-    background: url(../images/icon/form-2.png) no-repeat;
+    background: url(../img/icon/form-2.png) no-repeat;
     background-size: 21px;
     background-position: 0px 10px;
 }
 .ed-ref-form-inn form ul li:nth-child(3) input{
-    background: url(../images/icon/form-3.png) no-repeat;
+    background: url(../img/icon/form-3.png) no-repeat;
     background-size: 22px;
     background-position: 0px 8px;
 }
 .ed-ref-form-inn form ul li:nth-child(4) input{
-    background: url(../images/icon/form-4.png) no-repeat;
+    background: url(../img/icon/form-4.png) no-repeat;
     background-size: 24px;
     background-position: 0px 6px;
 }
@@ -5468,7 +5468,7 @@ input:not(:focus):valid ~ .floating-label{
 .ed-be-com{
     width: 90px;
     height: 90px;
-    background: url(../images/sprite.png), #e5e5e5;
+    background: url(../img/sprite.png), #e5e5e5;
     border-radius: 50px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -5528,7 +5528,7 @@ input:not(:focus):valid ~ .floating-label{
 /* =  RESARCH PAGE CSS Styles
 /*-------------------------------------------------*/
 .ed-res-bg{
-	background: url(../images/map.png) no-repeat center center #f1f1f1;
+	background: url(../img/map.png) no-repeat center center #f1f1f1;
 }
 .ed-rese-grid{
     box-sizing: border-box;

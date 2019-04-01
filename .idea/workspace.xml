@@ -2,10 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adee8772-81be-4240-b6fa-a643f6ff4437" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.envs/.production/.caddy" beforeDir="false" afterPath="$PROJECT_DIR$/.envs/.production/.caddy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.envs/.production/.django" beforeDir="false" afterPath="$PROJECT_DIR$/.envs/.production/.django" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements/production.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements/production.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ami/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ami/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ban-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ban-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/bg-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/bg-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/bg.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/bg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/bg/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/bg/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/bg/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/bg/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/bg/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/bg/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/bg/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/bg/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/blog/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/blog/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/blog/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/blog/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/blog/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/blog/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/blog/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/blog/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/blog/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/blog/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/book.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/cancel.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/cancel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/sm-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/sm-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/sm-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/sm-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/sm-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/sm-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/sm-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/sm-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/sm-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/sm-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/sm-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/sm-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/sm-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/sm-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/course/sm-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/course/sm-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ev-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ev-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ev-bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ev-bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ev-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ev-bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/ev-in-bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/ev-in-bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/event-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/event-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/event/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/event/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/event/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/event/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/event/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/event/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/event/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/event/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/facilities/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/facilities/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/fav.ico" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/fav.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/favicons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/favicons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/h-about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/h-about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/h-about1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/h-about1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/h-adm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/h-adm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/h-adm1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/h-adm1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/h-cam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/h-cam.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/h-cam1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/h-cam1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/h-res.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/h-res.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/h-res1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/h-res1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/home-ser-bg.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/home-ser-bg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/home-ser-bg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/home-ser-bg1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/itscs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/itscs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/itscslogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/itscslogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/mm-col-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/mm-col-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/placeholder.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/placeholder.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/pro-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/pro-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/seminar-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/seminar-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/slider/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/slider/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/slider/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/slider/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/slider/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/slider/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/sm/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/sm/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/sm/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/sm/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/sm/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/sm/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/sm/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/sm/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/sm/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/sm/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/sm/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/sm/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/sm/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/sm/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/user.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/user.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/user/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/user/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/user/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/user/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/user/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/user/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/user/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/user/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/user/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/user/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/user/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/user/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/static/images/weather.png" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/static/img/weather.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/about/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/carrers/all-courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/carrers/all-courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/contact/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/contact/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itscsapp/templates/core/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/itscsapp/templates/core/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,86 +124,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements/base.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements/production.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/settings/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2941">
-              <caret line="284" selection-start-line="284" selection-end-line="284" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/settings/local.py">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/contact/contact-us.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/settings/production.py">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="75" column="71" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.envs/.local/.django">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.envs/.local/.postgres">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.envs/.production/.caddy">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/awards_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="-394" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/deparment_detial.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/department_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-765" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/facilities.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-564" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/facilities-detail.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/admision/admission.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itscsapp/templates/admision/event-register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.envs/.production/.django">
+        <entry file="file://$PROJECT_DIR$/itscsapp/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="220">
+              <caret line="2218" column="20" lean-forward="true" selection-start-line="2218" selection-start-column="20" selection-end-line="2218" selection-end-column="20" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.envs/.production/.postgres">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -118,9 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/itscsapp/carrers/admin.py" />
-        <option value="$PROJECT_DIR$/itscsapp/carrers/models/carrer.py" />
-        <option value="$PROJECT_DIR$/itscsapp/users/models/users.py" />
         <option value="$PROJECT_DIR$/itscsapp/users/urls.py" />
         <option value="$PROJECT_DIR$/itscsapp/users/views.py" />
         <option value="$PROJECT_DIR$/itscsapp/events/urls.py" />
@@ -151,17 +244,13 @@
         <option value="$PROJECT_DIR$/itscsapp/blog/views.py" />
         <option value="$PROJECT_DIR$/itscsapp/blog/admin.py" />
         <option value="$PROJECT_DIR$/itscsapp/blog/models/post.py" />
-        <option value="$PROJECT_DIR$/itscsapp/static/css/style.css" />
         <option value="$PROJECT_DIR$/itscsapp/templates/blog/blog.html" />
         <option value="$PROJECT_DIR$/itscsapp/templates/blog/blog-details.html" />
         <option value="$PROJECT_DIR$/itscsapp/core/views.py" />
         <option value="$PROJECT_DIR$/itscsapp/templates/base.html" />
         <option value="$PROJECT_DIR$/itscsapp/carrers/views.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/core/home.html" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html" />
         <option value="$PROJECT_DIR$/itscsapp/research/views.py" />
         <option value="$PROJECT_DIR$/itscsapp/about/views.py" />
-        <option value="$PROJECT_DIR$/itscsapp/templates/about/about.html" />
         <option value="$PROJECT_DIR$/config/settings/production.py" />
         <option value="$PROJECT_DIR$/itscsapp/taskapp/celery.py" />
         <option value="$PROJECT_DIR$/config/settings/base.py" />
@@ -169,6 +258,13 @@
         <option value="$PROJECT_DIR$/requirements/production.txt" />
         <option value="$PROJECT_DIR$/.envs/.production/.caddy" />
         <option value="$PROJECT_DIR$/.envs/.production/.django" />
+        <option value="$PROJECT_DIR$/config/wsgi.py" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/core/home.html" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/carrers/all-courses.html" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/contact/contact-us.html" />
+        <option value="$PROJECT_DIR$/itscsapp/templates/about/about.html" />
+        <option value="$PROJECT_DIR$/itscsapp/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -196,29 +292,20 @@
             <path>
               <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-              <item name=".envs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-              <item name=".envs" type="462c0819:PsiDirectoryNode" />
-              <item name=".production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
               <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itscsapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="itscsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,19 +325,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\blog\models" />
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp" />
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\about" />
-      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\contact" />
-      <recent name="C:\Users\danny\Desktop\itscsapp\frontend\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\blog" />
       <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\admision" />
       <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\events" />
       <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\about" />
       <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danny\Pictures\itscsapp\itscsapp\static\img" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\blog\models" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\templates\about" />
+      <recent name="C:\Users\danny\Desktop\itscsapp\itscsapp\contact" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,11 +394,12 @@
       <workItem from="1554078964898" duration="1287000" />
       <workItem from="1554086347287" duration="2626000" />
       <workItem from="1554089815979" duration="976000" />
+      <workItem from="1554091352573" duration="897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124550000" />
+    <option name="totallyTimeSpent" value="125447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -344,74 +432,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itscsapp/about/models/facilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/facilities.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/admision/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/admision/admission.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/admision/models/admision_carrer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/events/events-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/admision/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/events/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" column="105" selection-start-line="31" selection-start-column="105" selection-end-line="31" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itscsapp/comment/models/comment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -492,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/admision/event-register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itscsapp/admision/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -569,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itscsapp/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -620,24 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/core/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3927">
-          <caret line="231" column="60" selection-start-line="231" selection-start-column="18" selection-end-line="231" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itscsapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4114">
           <caret line="242" column="43" selection-start-line="242" selection-start-column="43" selection-end-line="242" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -658,13 +650,6 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -691,9 +676,6 @@
     <entry file="file://$PROJECT_DIR$/docs/conf.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements/base.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -704,13 +686,13 @@
     <entry file="file://$PROJECT_DIR$/requirements/production.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
+        <state relative-caret-position="4828">
           <caret line="284" selection-start-line="284" selection-end-line="284" />
         </state>
       </provider>
@@ -726,7 +708,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
+        <state relative-caret-position="1224">
           <caret line="75" column="71" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -740,9 +722,6 @@
     <entry file="file://$PROJECT_DIR$/.envs/.local/.postgres">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.envs/.production/.postgres">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.envs/.production/.caddy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -750,10 +729,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.envs/.production/.postgres">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.envs/.production/.django">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#662#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/carrers/carrer_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="242" lean-forward="true" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/carrers/all-courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/core/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1332">
+          <caret line="244" column="29" lean-forward="true" selection-start-line="244" selection-start-column="29" selection-end-line="244" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/contact/contact-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/awards_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/deparment_detial.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/department_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/facilities.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/about/facilities-detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/admision/admission.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/templates/admision/event-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itscsapp/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="2218" column="20" lean-forward="true" selection-start-line="2218" selection-start-column="20" selection-end-line="2218" selection-end-column="20" />
         </state>
       </provider>
     </entry>
