@@ -20,6 +20,7 @@ class User(ITSModel, AbstractUser):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username', 'first_name', 'last_name']
 
+
     is_student = models.BooleanField(
         default=False,
         help_text=('If the user is a student, he / she will be able to enroll in the subjects')

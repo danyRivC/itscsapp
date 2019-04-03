@@ -93,7 +93,7 @@
                             </ul>
                         </div>
                         <div class="ed-com-t1-right">
-                            
+
                             {% if request.user.is_authenticated %}
                                 <ul>
                                 <li><a href="#!" data-toggle="modal" >{{ request.user.username }}</a>
@@ -213,6 +213,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
+
+                      {% if error %}
+                        <div class="alert alert-danger" role="alert">
+                            {{ error }}
+                        </div>
+                      {% endif %}
+                      {% if 'ok' in request.GET %}
+                        <div class="alert alert-success" role="alert">
+                            Cuenta agregada con éxito
+                        </div>
+                      {% endif %}
                         <div class="search-form">
                             <form method="get" action="{% url 'search_carrer' query='query' %}">
                                 <div class="sf-type">

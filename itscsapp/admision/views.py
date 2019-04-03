@@ -12,6 +12,8 @@ class AdmisionCarrerView(FormView):
     form_class = AdmisionCarrerForm
     template_name = 'admision/admission.html'
 
+
+
     def get_success_url(self):
         return reverse_lazy('admision')+'?ok'
 
