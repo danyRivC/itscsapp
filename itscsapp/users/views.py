@@ -58,7 +58,7 @@ def sign_up(request):
         user.last_name = request.POST['last_name']
         user.email = request.POST['email']
         user.save()
-        return reverse_lazy('home')+'?ok'
+        return redirect('home')
     return render(request, 'core/home.html', {'carrers': carrers,
                                                'events': events,
                                                 'blogs': blogs})
